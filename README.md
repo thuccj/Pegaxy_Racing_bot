@@ -52,4 +52,4 @@ The NFT market in Vietnam is growing and we can help boost community projects so
 
 
 
-## I refer to the article [here](https://github.com/GabrielZulian/pegaxy-racing-bot) and optimize their code.
+I refer to the article [here](https://github.com/GabrielZulian/pegaxy-racing-bot) and optimize their code.
