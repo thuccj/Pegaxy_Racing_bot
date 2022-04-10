@@ -50,9 +50,7 @@ The NFT market in Vietnam is growing and we can help boost community projects so
 
 #### 0x5b6c6c4DF95adb706237c37034850C30b3faD5d7
 
-
-
-
+#
 
      _________         .    .
     (..       \_    ,  |\  /|
@@ -65,7 +63,6 @@ The NFT market in Vietnam is growing and we can help boost community projects so
          |/   \_  \|      /
     thuccamap   \________/ 
 
-
-
+#
 
 I refer to the article [here](https://github.com/GabrielZulian/pegaxy-racing-bot) and optimize their code.
