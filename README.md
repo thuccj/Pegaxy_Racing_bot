@@ -1,18 +1,18 @@
-# Sobre:
+# Title:
 
-Esse bot foi desenvolvido em Python e serve somente para automatizar as corridas com os pegaxies, no momento está programado para 1 pegaxy somente, porém a ideia é implementar para outros posteriormente.
+This bot is developed in Python and serves only to automate races with pegaxies, at the moment it is programmed for 4 pegaxy (the number of pegaxy can be changed in the code).
 
-Decidi publicá-lo gratuimente e mantê-lo através de donates de quem achou útil e/ou para quem teve seu tempo poupado e também através de pull requests de quem quiser ajudar com o código.
+I decided to publish it for free for those who find it useful or for those who have little time to spare.
 
 ## Importante:
 
-#### Não me responsabilizo por penalidades que o uso do bot possa trazer, use por sua conta e risco.
+#### I am not responsible for penalties that the use of bots may bring, use at your own risk.
 
-# Utilização:
+# Use:
 
-### Baixe e instale o Python pelo [site](https://www.python.org/downloads/).
+### Download and setup Python from [site](https://www.python.org/downloads/).
 
-Adicione o python ao PATH do windows. O próprio instalador fornece essa opção para adicionar.
+Add Python to PATH System
 
 ### Realize o download do codigo compactado e extraia os arquivos.
 
