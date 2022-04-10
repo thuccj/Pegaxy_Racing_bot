@@ -14,45 +14,38 @@ I decided to publish it for free for those who find it useful or for those who h
 
 Add Python to PATH System
 
-### Realize o download do codigo compactado e extraia os arquivos.
+### Download Pegaxy_Racing_bot.
 
-### Vá até o caminho do bot via cmd. Ex.:
+### Go to bot PATH by CMD, example:
 
 ```
-cd c:/pegaxy-runner-bot
+cd c:/Pegaxy_Racing_bot
 ```
 
-### Instale as dependências:
+### Install requirements.txt
 
 ```
 pip install -r requirements.txt
 ```
 
-### Inicie o bot via o comando:
+### Run bot:
 
 ```
 python main.py
 ```
 
-Apenas deixe a metamask conectada e em alguma página do jogo e após rodar o comando acima, ele irá começar a interagir com as páginas.
+Just leave the metamask connected to the game's page and after running the command above it will start interacting with the pages..
 
-## Como funciona / ajustes:
+## How it works:
 
-O bot tira screenshots da tela para localizar os botões e poder realizar as operações conforme o estado atual do jogo.
-Caso o bot clique em lugares errados na tela, você pode fornecer o seu próprio print dos botões para a pasta screenshots.
-Isso melhora a fidelidade de cores e resolução e faz com que o bot consiga localizar os elementos com mais assertividade.
+The bot takes screenshots of the screen to locate buttons and can perform actions according to the current state of the game. If the bot clicks in the wrong place on the screen, you can provide your own print of the buttons for the screenshot folder. This improves color fidelity and resolution and makes it possible for bots to find elements more assertively.
 
-Alguns parâmetros podem ser configurados no arquivo configs.yaml
+Some parameters can be configured in the file configs.yaml
 
-## Paga um café?
+## Take a coffe
 
-O mercado de NFTs no Brasil está crescendo, e podemos ajudar a fortalecer os projetos da comunidade para que mais ideias e ferramentas de otimização possam surgir.
-Qualquer ajuda é bem vinda.
+The NFT market in Vietnam is growing and we can help boost community projects so that more ideas and optimization tools can emerge. Any help is welcomed.
 
-### Wallet (Polygon / BSC):
+### Wallet (Polygon / USDT):
 
-#### 0x10ab6E4508c69a4d25445631A0eD25F58a16d82F
-
-### CrypTip:
-
-#### https://pegaxy-bot.cryptip.xyz/
+#### 0x5b6c6c4DF95adb706237c37034850C30b3faD5d7
