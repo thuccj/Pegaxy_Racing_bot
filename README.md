@@ -49,3 +49,7 @@ The NFT market in Vietnam is growing and we can help boost community projects so
 ### Wallet (Polygon / USDT):
 
 #### 0x5b6c6c4DF95adb706237c37034850C30b3faD5d7
+
+
+
+#### I refer to the article [here](https://github.com/GabrielZulian/pegaxy-racing-bot) and optimize their code.
