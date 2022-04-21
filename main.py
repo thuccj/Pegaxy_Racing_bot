@@ -17,7 +17,7 @@ waiting_times = configs['threshold']
 
 
 def move_cursor(x, y, t):
-    pyautogui.moveTo(x, y, t, pyautogui.easeOutQuint)
+    pyautogui.moveTo(x, y, t, pyautogui.easeOutExpo)
 
 
 def show(rectangles, img=None):
@@ -126,53 +126,65 @@ def main():
     print('Starting pegaxy racing bot...')
     print('Press CTRL + C to stop bot')
     print('\n')
-    flag = True
+    check = True
 
     while True:
 
         while True:
-                        
+
             print('Pressing start...')
 
-            do_click(images['h' + str(h_num)])
-            time.sleep(3)
+            while do_click(images['h' + str(h_num)]) == False:
+                continue
 
             do_click(images['start'])
             time.sleep(3)
             
-            if (do_click(images['empty_energy'], 0.7)):
+            if (do_click(images['empty_energy'], 1)):
                 h_num += 1
                 if (h_num == 5):
-                    if (flag == False):
-                        break
-                    h_num = 1
-                    flag = False
+                    if (check == False and h_num == 5):
+                        return 0
+                    else:
+                        h_num = 1
+                        check = False
             else:
                 break
 
-        if (flag == False):
-            break
 
         while True:
             
             print('Waiting metamask sign...')
-            time.sleep(3)
+            
+            while True:
+                if do_click(images['sign']):
+                    break
+            
+            time.sleep(1)
 
-            do_click(images['sign'], 30)
-            time.sleep(3)
+            while do_click(images['join_match']):
+                time.sleep(3)
+                print('Sleep 3s')
 
-            if (do_click(images['find_another'])):
+            if do_click(images['find_another']):
                 print('Fail to start race, searching for another...')
             else:
                 print('Starting race...')
                 break
 
-        time.sleep(45)
-        do_click(images['next_match'], 300)
+
+        while do_click(images['finished']) == False:
+            time.sleep(5)
+
+        time.sleep(1)
+        do_click(images['next_match'])
         print('Next race...')
         
-        pyautogui.hotkey('ctrl', 'f5')
         time.sleep(3)
+        
+        while do_click(images['loading'], 3):
+            pyautogui.hotkey('ctrl', 'f5')
+            time.sleep(3)
 
 
 if __name__ == '__main__':
