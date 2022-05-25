@@ -142,8 +142,9 @@ def main():
             
             if (do_click(images['empty_energy'], 1)):
                 h_num += 1
-                if (h_num == 5):
-                    if (check == False and h_num == 5):
+                if (h_num == 4):
+                    if (check == False and h_num == 4):
+                        print("Lan 2 oke")
                         return 0
                     else:
                         h_num = 1
@@ -166,12 +167,15 @@ def main():
                 time.sleep(3)
                 print('Sleep 3s')
 
-            if do_click(images['find_another']):
+            if (do_click(images['find_another']) or do_click(images['reload'])):
                 print('Fail to start race, searching for another...')
             else:
                 print('Starting race...')
                 break
 
+        time.sleep(5)
+        if do_click(images['error']):
+            continue
 
         while do_click(images['finished']) == False:
             time.sleep(5)
